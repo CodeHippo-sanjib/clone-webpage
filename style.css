@@ -1,0 +1,32 @@
+h2{
+    color: aqua;
+}
+
+p{
+    color: blueviolet;
+    text-align: center;
+}
+
+button{
+    color: tomato;
+    background-color: forestgreen;
+}
+
+body{
+    background-color: #123456;
+}
+
+#ground1{
+    color: aliceblue;
+}
+
+#ground2{
+    color: chocolate;
+}
+
+.wrap{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: capitalize;
+}
