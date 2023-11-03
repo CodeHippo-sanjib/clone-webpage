@@ -176,3 +176,32 @@ To https://github.com/CodeHippo-sanjib/clone-webpage.git
 branch 'main' set up to track 'copycat/main'.
 
 ORIGIN=COPYCAT
+
+**********Git Branches*********
+
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git --version
+git version 2.42.0.windows.2
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch
+* main
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git checkout -b feature1
+Switched to a new branch 'feature1'
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch
+* feature1
+  main
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'copycat/main'.
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch       
+  feature1
+* main
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git checkout feature1
+Switched to branch 'feature1'
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch
+* feature1
+  main
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git checkout -b feature2
+Switched to a new branch 'feature2'
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch
+  feature1
+* feature2
+  main
