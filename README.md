@@ -256,3 +256,6 @@ Changes to be committed:
 PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git checkout feature1
 Switched to branch 'feature1'
 M       README.md
+
+---exceptional---
+Hi i am sanjib sil.i am a coder based on habra .
