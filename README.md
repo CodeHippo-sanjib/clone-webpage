@@ -205,3 +205,54 @@ PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch
   feature1
 * feature2
   main
+
+  ************PULL REQUST REMOTE MACHINE TO LOCAL MACHINE********
+
+  PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch
+* feature1
+  main
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git chekout main
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'copycat/main'.
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git branch       
+  feature1
+* main
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git pull copycat main
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 635 bytes | 211.00 KiB/s, done.
+From https://github.com/CodeHippo-sanjib/clone-webpage
+ * branch            main       -> FETCH_HEAD
+   74134b8..e466223  main       -> copycat/main
+Updating 74134b8..e466223
+Fast-forward
+ README.md | 31 ++++++++++++++++++++++++++++++-
+ 1 file changed, 30 insertions(+), 1 deletion(-)
+
+ ******Resolving Merge Conflicts******
+
+ An  Event that takes place when git is unable to automatically resolve difference in code between two commits
+ -----------
+ PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git add .
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git commet -m "Resolving Merge Conflicts"
+git: 'commet' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git status
+On branch main
+Your branch is up to date with 'copycat/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+PS C:\Users\ASUS\OneDrive\Desktop\gitdemo\LocalRepo> git checkout feature1
+Switched to branch 'feature1'
+M       README.md
